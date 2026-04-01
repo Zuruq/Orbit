@@ -107,3 +107,82 @@ input:hover{
     text-decoration: none;
     font-weight: 500;
 }
+
+/* Media responsiveness */
+@media screen and (max-width: 600px) {
+   body{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: -30px;
+    margin-left: 20px;
+    overflow: hidden;
+   }
+
+   .input-row{
+    display: block;
+   }
+
+   h1{
+   margin-left: 20px;
+   }
+   input{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+   }
+   
+   .forgot-password{
+    margin-left: 20px;
+   }
+   .btn-get-started{
+    width: 100%;
+    margin-right: -20px;
+   }
+
+   .signup-text{
+    font-size:20px ;
+   }
+
+  }
+
+  @media screen and (max-width: 400px) {
+   body{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: -30px;
+    margin-left: 20px;
+    overflow: hidden;
+   }
+
+   .input-row{
+    display: block;
+   }
+
+   h1{
+   margin-left: 20px;
+   }
+   input{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+   }
+   
+   .forgot-password{
+    margin-left: 20px;
+   }
+   .btn-get-started{
+    width: 100%;
+    margin-right: -20px;
+   }
+
+   .signup-text{
+    font-size:20px ;
+   }
+
+  }
