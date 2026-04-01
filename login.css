@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins Bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poppins Bold'), url('Poppins-Bold.woff') format('woff');
+    }
+
+.login-card {
+    background: white;
+    width: 100%;
+    padding: 60px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 56px;
+    color: #8533CD;
+    margin-bottom: 60px;
+    
+}
+
+.input-row {
+    display: flex;
+    gap: 150px;
+    margin-bottom: 15px;
+}
+
+.e-icon{
+    position: absolute;
+    right: 930px;
+    top: 40.5%;
+}
+
+input {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #bca6e2;
+    opacity: 50%;
+}
+::placeholder{
+    color: #8533CD;
+}
+
+input:hover{
+    border-color:#8533CD ;
+}
+
+#passwordError{
+    display: block;
+    
+}
+
+.forgot-password {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: #8533CD;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.btn-get-started {
+    width: 30%;
+    padding: 12px;
+    background-color: #8533CD;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+}
+
+.signup-text {
+    margin-top: 80px;
+    clear: both;
+    font-size: 14px;
+    color: #444;
+    font-size: 25px;
+}
+
+.signup-text a {
+    color: #8533CD;
+    text-decoration: none;
+    font-weight: 500;
+}
